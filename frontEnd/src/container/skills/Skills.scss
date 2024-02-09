@@ -1,0 +1,250 @@
+.app__skills {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 400;
+    margin-top: 1rem;
+    color: var(--black-color);
+    width: 90%;
+    letter-spacing: -1px;
+    color: var(--secondary-color);
+  }
+}
+
+.app__skills-container {
+  width: 100%;
+  margin-top: 3rem;
+  // border: 1px solid black;
+
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.app__skills-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  // border: 1px solid black;
+
+  margin-right: 2rem;
+
+  @media screen and (max-width: 900px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.app__skills-item {
+  flex-direction: column;
+  text-align: center;
+
+  margin: 1rem;
+
+  transition: all 0.3s ease-in-out;
+
+  div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fef4f5;
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+
+    &:hover {
+      box-shadow: 0 0 25px #fef4f5;
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  @media screen and (min-width: 2000px) {
+    margin: 1rem 2rem;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.skills-tooltip {
+  max-width: 300px !important;
+  background-color: var(--white-color) !important;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 5px !important;
+  padding: 1rem !important;
+  color: var(--gray-color) !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+  opacity: 1 !important;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem !important;
+    max-width: 500px !important;
+    line-height: 2 !important;
+  }
+}
+
+.app__skills-acc{
+  width: 40%;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.app__accomplishments-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  // border: 1px solid black;
+
+  .app__accomplishments-filter-item {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+
+    p{
+      font-weight: 500;
+    }
+    &:hover {
+      background-color: var(--secondary-color);
+      color: #ffffff;
+    }
+    @media screen and (min-width: 2000px) {
+      padding: 1rem 2rem;
+      border-radius: 0.85rem;
+      font-size: 1.5rem;
+    }
+  }
+  .item-active {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+  }
+}
+
+.app__accomplishments-container {
+  width: 100%;
+}
+
+.app__accomplishments-error_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app__skills-acc-leet{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.app__skills-acc-leet-item{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  img {
+    width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+
+.app__skills-acc-hack{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.app__skills-acc-hack-item{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    text-align: center;
+    
+  }
+}
+
+.app__skills-acc-github{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.github__stats{
+  width: 80%;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.github__trophy{
+  width: 80%;
+  margin-top: 20px;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
