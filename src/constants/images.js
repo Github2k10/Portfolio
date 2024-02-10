@@ -34,6 +34,7 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import spring from "../assets/springboot.png";
 
 export default {
   email,
@@ -69,4 +70,5 @@ export default {
   nb,
   skype,
   spotify,
+  spring,
 };

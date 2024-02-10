@@ -42,9 +42,9 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text" style={{ fontSize: 35 }}>
+      <h3 className="head-text">
         <span>Take a</span> coffee <span>&</span> chat <span>with me</span>
-      </h2>
+      </h3>
       <p className="p-text pt-text">
         Ready to build something awesome? <span>Let's chat!</span>
       </p>
