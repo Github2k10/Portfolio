@@ -48,6 +48,7 @@ const Works = () => {
           "All",
           "Web App",
           "HTML & CSS",
+          "React",
           "JDBC",
           "Java",
           "SpringBoot",
