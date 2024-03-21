@@ -53,6 +53,7 @@ const Works = () => {
           "Java",
           "SpringBoot",
           "Figma",
+          "Python",
         ].map((item, index) => (
           <div
             key={index}
